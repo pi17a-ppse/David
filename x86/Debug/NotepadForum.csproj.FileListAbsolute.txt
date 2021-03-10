@@ -1,0 +1,18 @@
+C:\Users\МТС\Documents\Visual Studio 2010\Projects\NotepadForum\NotepadForum\bin\Debug\NotepadForum.exe
+C:\Users\МТС\Documents\Visual Studio 2010\Projects\NotepadForum\NotepadForum\bin\Debug\NotepadForum.pdb
+C:\Users\МТС\Documents\Visual Studio 2010\Projects\NotepadForum\NotepadForum\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\МТС\Documents\Visual Studio 2010\Projects\NotepadForum\NotepadForum\obj\x86\Debug\NotepadForum.Notepad.resources
+C:\Users\МТС\Documents\Visual Studio 2010\Projects\NotepadForum\NotepadForum\obj\x86\Debug\NotepadForum.Properties.Resources.resources
+C:\Users\МТС\Documents\Visual Studio 2010\Projects\NotepadForum\NotepadForum\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\МТС\Documents\Visual Studio 2010\Projects\NotepadForum\NotepadForum\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\МТС\Documents\Visual Studio 2010\Projects\NotepadForum\NotepadForum\obj\x86\Debug\NotepadForum.exe
+C:\Users\МТС\Documents\Visual Studio 2010\Projects\NotepadForum\NotepadForum\obj\x86\Debug\NotepadForum.pdb
+C:\Users\didur\Desktop\NotepadForum\NotepadForum\bin\Debug\NotepadForum.exe
+C:\Users\didur\Desktop\NotepadForum\NotepadForum\bin\Debug\NotepadForum.pdb
+C:\Users\didur\Desktop\NotepadForum\NotepadForum\obj\x86\Debug\NotepadForum.csprojAssemblyReference.cache
+C:\Users\didur\Desktop\NotepadForum\NotepadForum\obj\x86\Debug\NotepadForum.Notepad.resources
+C:\Users\didur\Desktop\NotepadForum\NotepadForum\obj\x86\Debug\NotepadForum.Properties.Resources.resources
+C:\Users\didur\Desktop\NotepadForum\NotepadForum\obj\x86\Debug\NotepadForum.csproj.GenerateResource.cache
+C:\Users\didur\Desktop\NotepadForum\NotepadForum\obj\x86\Debug\NotepadForum.csproj.CoreCompileInputs.cache
+C:\Users\didur\Desktop\NotepadForum\NotepadForum\obj\x86\Debug\NotepadForum.exe
+C:\Users\didur\Desktop\NotepadForum\NotepadForum\obj\x86\Debug\NotepadForum.pdb
