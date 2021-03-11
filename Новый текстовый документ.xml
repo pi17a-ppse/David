@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://docbook.org/xml/5.1/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://docbook.org/xml/5.1/sch/docbook.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<article xmlns="http://docbook.org/ns/docbook"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="5.1">
+    <info>
+        <title>Документация к проекту NotePad</title>
+        <author>
+            <personname>
+                <firstname>Давид</firstname>
+                <surname>Дидур</surname>
+            </personname>
+        </author>
+        <copyright>
+            <year>2021</year>
+            <holder>Дидур Давид</holder>
+        </copyright>
+    </info>
+    <chapter>
+        <title>Описание проекта</title>
+        <para>Данный проект является консольным приложением для записи и сохранения текста.</para>
+        <para>Блокнот доступен на: https://github.com/pi17a-ppse/David/</para>
+        <section>
+            <title>Особенности проекта</title>
+            <para>Управление кнопками, интуитивно - понятное всем пользователям;</para>
+            <para>Выбор кодировки;</para>
+            <para>Импорт файла;</para>
+            <para>Экспорт файла</para>
+        </section>
+    </chapter>
+    <chapter>
+        <title>Детали реализации</title>
+        <para>Особенности реализации отдельного функционала представлены ниже:</para>
+        <section>
+            <title>Открытие файла</title>
+            <example>
+                <programlisting><![CDATA[
+                 private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            State.Text = "Opening...";
+
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                using (StreamReader reader = new StreamReader(openFileDialog1.FileName, Encoding.Default))
+                {
+                    richTextBox1.Text = reader.ReadToEnd();
+                }
+
+                Saved.Text = "Сохранен";
+            }
+
+            State.Text = "Ready";
+        }
+                ]]></programlisting>
+            </example>
+        </section>
+        <section>
+            <title>Сохранение файла</title>
+            <example>
+                <programlisting><![CDATA[
+                private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            State.Text = "Saving...";
+
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                using (StreamWriter writer = new StreamWriter(saveFileDialog1.FileName, false, Encoding.Default))
+                {
+                    writer.Write(richTextBox1.Text);
+                }
+
+                Saved.Text = "Сохранен";
+            }
+
+            State.Text = "Ready";
+        }
+                ]]></programlisting>
+            </example>
+        </section>
+        <section>
+            <title>Выход</title>
+            <example>
+                <programlisting><![CDATA[
+                private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+                ]]></programlisting>
+            </example>
+        </section>
+    </chapter>
+</article>
