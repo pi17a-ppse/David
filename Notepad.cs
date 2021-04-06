@@ -113,5 +113,19 @@ namespace NotepadForum
         {
             if (statusRight.Text != "Modified") statusRight.Text = "Modified";
         }
-    }
-}
+   !!!!
+
+
+	   !!!!
+
+
+	   wo
+	!!!!
+
+
+	w!!!!
+
+
+	wo
+:wq
+
